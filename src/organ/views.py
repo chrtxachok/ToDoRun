@@ -15,6 +15,8 @@ from .models import Tasks, Subtasks
 
 from django.http import JsonResponse
 
+from django.http import JsonResponse
+
 
 @login_required
 def tasks(request):
