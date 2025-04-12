@@ -15,7 +15,6 @@ from .forms import (  # noqa: E501
     SubtasksStatusForm
 )
 from .models import Tasks, Subtasks
-
 from django.http import JsonResponse
 
 
