@@ -43,10 +43,6 @@ INSTALLED_APPS = [
     "organ",
     "sass_processor",
 ]
-# reCAPTCHA настройки
-#RECAPTCHA_PUBLIC_KEY = '6LecXhIrAAAAAF_vAsL3ZjnTQs8cXlenm6Dq6vc4'
-#RECAPTCHA_PRIVATE_KEY = '6LecXhIrAAAAAG5y23rLClOedZjwnlWJN9hRN5pL'
-#RECAPTCHA_REQUIRED_SCORE = 0.85  # Для v3
 
 STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
